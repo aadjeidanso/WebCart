@@ -8,7 +8,7 @@ def get_sql_connection():
     if __cnx is None:
         __cnx = mysql.connector.connect(
         user='root',
-        password='cHRISTcON@#1722',
+        password='my password',
         host='127.0.0.1',
         database='christdia',
         auth_plugin='mysql_native_password'
